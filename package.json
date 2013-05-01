@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-cookbook",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Chris Auer <chris@enlightenmint.com>",
+  "description": "A cookbook for AngularJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisauer/angularjs-cookbook.git"
+  },
+  "dependencies": {},
+  "analyze": false,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0"
+  },
+  "engines": {
+    "node": ">=0.6"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<title>Lazy Loading Controllers in AngularJS</title>
+	</head>
+	<body>
+		<h1>Lazy Loading Controllers in AngularJS</h1>
+		<p>Lets show some form elements!</p>
+		<ul>
+			<li><a href="#/delegate/text/show">Text</a></li>
+			<li><a href="#/delegate/select/show">Select</a></li>
+			<li><a href="#/delegate/foo/show">Error</a></li>
+		</ul>
+		<div ng-view>
+
+		</div>
+	</body>
+	<script src="../components/angular/angular.min.js"></script>
+	<script src="../components/require/require.js"></script>
+	<script src="app.js"></script>
+</html>
