@@ -1,0 +1,15 @@
+
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<h1>Layout Manager in AngularJS</h1>
+			<p>Lets show some form elements!</p>
+
+			<select ng-model="layout" ng-options="currOption for currOption in layouts"></select>
+			<p><button class="btn" ng-click="broadcast()">Broadcast Event</button>
+		</div>
+	</div>
+	<hr/>
+	<layout/>
+
+</div>
